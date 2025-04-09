@@ -43,7 +43,7 @@ tee docker-compose.override.yml <<EOF
 services:
   netbox:
     ports:
-      - 8000:8080
+      - 8090:8080
 EOF
 docker compose pull
 docker compose up -d
